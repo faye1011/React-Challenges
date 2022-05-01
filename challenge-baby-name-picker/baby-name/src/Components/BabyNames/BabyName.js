@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./BabyNames.css";
 
 function BabyName(props) {
   function handleAddName(e) {

@@ -1,0 +1,28 @@
+.m {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: solid 1px blue;
+  border-radius: 10px;
+}
+.f {
+  background-color: rgb(255, 116, 139);
+  color: white;
+  padding: 10px;
+  border: solid 1px rgb(255, 116, 139);
+  border-radius: 10px;
+}
+.d {
+  background-color: rgb(253, 167, 8);
+  color: white;
+  padding: 10px;
+  border: solid 1px rgb(253, 167, 8);
+  border-radius: 10px;
+}
+
+.individual-baby-names-container {
+  width: 10%;
+}
+.individual-baby-names {
+  width: 90%;
+}

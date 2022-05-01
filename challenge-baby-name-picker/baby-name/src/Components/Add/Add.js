@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-function Search(props) {
+function Add(props) {
   let [input, setCurrentName] = useState("");
 
   function handleNameAdd(e) {
@@ -34,4 +34,4 @@ function Search(props) {
     </div>
   );
 }
-export default Search;
+export default Add;
