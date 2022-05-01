@@ -55,7 +55,7 @@ function App(props) {
   }
 
   function createFavouriteItem() {
-    return favNames.map(function (el, i) {
+    return favNamesList.map(function (el, i) {
       return <Favourites name={el.name} sex={el.sex} id={el.name} index={i} />;
     });
   }
@@ -63,7 +63,7 @@ function App(props) {
   return (
     <div className="app-container">
       <div className="favourites-container">
-        {favNames ? createFavouriteItem() : null}
+        {favNamesList ? createFavouriteItem() : null}
       </div>
       <div className="search-bar-container">
         <Search addName={addBabyName} />

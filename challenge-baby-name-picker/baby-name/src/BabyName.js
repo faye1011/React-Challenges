@@ -1,26 +1,17 @@
 import { useState } from "react";
 
 function BabyName(props) {
-  let [name, setName] = useState("");
-
   function handleAddName(e) {
     e.preventDefault();
     props.removeName(props.index);
-    // props.getFavourites(props.index);
-    setName(props.id);
+    // props.getFavourites(props.index);;
+    const newFavName = {
+      name: props.id,
+      sex: props.sex,
+    };
 
-    console.log(name);
-    props.addFavouritesToList(name);
+    props.addFavouritesToList(newFavName);
   }
-  // function addFavsToAllFavs(){
-  //   const newFavName ={
-  //     name: props.id,
-  //     sex: props.sex
-  //   }
-  //    setName(props.id);
-  //    console.log(name);
-  //    props.addFavouritesToList(name);
-  // }
 
   return (
     <div className="individual-baby-names-container">

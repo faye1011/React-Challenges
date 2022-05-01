@@ -21,7 +21,7 @@ function Search(props) {
       <input
         onChange={handleNameAdd}
         type="text"
-        placeholder="Search.."
+        placeholder="add name"
         value={input}
       />
       <button

@@ -33,6 +33,15 @@
   justify-content: space-between;
 }
 
+.favourites-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .individual-baby-names-container {
   width: 10%;
 }
@@ -45,6 +54,7 @@
   height: 10%;
   width: 100%;
 }
+
 .search-bar {
   height: 80%;
   padding: 30px;
